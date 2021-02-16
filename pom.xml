@@ -4,6 +4,37 @@
   <artifactId>Cvtheque</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <dependencies>
+  
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+	    <groupId>org.eclipse.persistence</groupId>
+	    <artifactId>org.eclipse.persistence.jpa</artifactId>
+	    <version>2.5.1</version>
+	</dependency>
+	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>8.0.17</version>
+	</dependency>
+	<dependency>
+	    <groupId>javax.mail</groupId>
+	    <artifactId>mail</artifactId>
+	    <version>1.4</version>
+	</dependency>
+	
+	<dependency>
+    <groupId>org.apache.geronimo.javamail</groupId>
+    <artifactId>geronimo-javamail_1.4_mail</artifactId>
+    <version>1.8.4</version>
+</dependency>
+	
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
